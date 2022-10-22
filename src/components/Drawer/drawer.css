@@ -1,0 +1,23 @@
+.left-nav-bar {
+    width: 15%;
+    height: 90%;
+}
+
+.option {
+    display: flex;
+    justify-content: flex-start;
+    padding: 10px;
+    color: white;
+    font-size: 18px;
+    box-shadow: 0px 5px 4px -3px #456571;
+}
+
+.option:hover {
+    cursor: pointer;
+    transform: scaleY(1.05);
+    transition: 0.4s ease-in;
+}
+
+.active {
+    background-color: #1ba1a1;
+}
