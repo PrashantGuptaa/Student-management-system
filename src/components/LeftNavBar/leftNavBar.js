@@ -1,7 +1,6 @@
 import * as React from "react";
 import { leftNavBarOptions } from "../../config/constants";
-import "./drawer.css";
-import { useRef } from "react";
+import "./leftNavBar.css";
 import { useState } from "react";
 
 export default function LeftNavBar() {

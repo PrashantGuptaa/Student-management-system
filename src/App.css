@@ -1,10 +1,10 @@
 .App {
   text-align: center;
-  height: 100vh;
+  height: 200vh;
 }
 
 .interface {
-  background-color: #03c1c1 !important;
+  background-color: #1f1f26 !important;
   color: white !important;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif !important;
 }

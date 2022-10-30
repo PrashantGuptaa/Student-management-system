@@ -1,23 +1,25 @@
 .left-nav-bar {
     width: 15%;
-    height: 90%;
+    height: 90vh;
+    /* top: 10%; */
+    /* position: fixed; */
 }
 
 .option {
     display: flex;
     justify-content: flex-start;
-    padding: 10px;
+    padding: 15px 10px;
     color: white;
     font-size: 18px;
-    box-shadow: 0px 5px 4px -3px #456571;
+    box-shadow: 0px 5px 4px -3px #2c3c42;
 }
 
 .option:hover {
     cursor: pointer;
     transform: scaleY(1.05);
-    transition: 0.4s ease-in;
+    transition: 0.3s ease-in;
 }
 
 .active {
-    background-color: #1ba1a1;
+    background-color: #434343;
 }

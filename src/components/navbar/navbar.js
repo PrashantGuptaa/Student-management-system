@@ -15,6 +15,7 @@ import AccountCircle from '@mui/icons-material/AccountCircle';
 import MailIcon from '@mui/icons-material/Mail';
 import NotificationsIcon from '@mui/icons-material/Notifications';
 import MoreIcon from '@mui/icons-material/MoreVert';
+import './navbar.css';
 
 const Search = styled('div')(({ theme }) => ({
   position: 'relative',
@@ -76,27 +77,20 @@ export default function NavBar() {
 
 
   return (
-    <div style ={{ height: '10% !important'}} className='interface'>
-      <AppBar position="static" className='interface'>
+    <div style ={{ height: '10% !important'}}>
+      <AppBar position="static" className='interface navbar'>
         <Toolbar>
           <Typography
-            variant="h6"
+            variant="h5"
             noWrap
             component="div"
+            className='fusion'
             sx={{ display: { xs: 'none', sm: 'block' }, letterSpacing: '1.5px', fontWeight: 'bold' }}
           >
             FUSION 
           </Typography>
           <Box sx={{ flexGrow: 1 }} />
           <Box style ={{ display: 'flex', alignItems: 'center'}}>
-          <Typography
-            variant="h6"
-            noWrap
-            component="div"
-            sx={{ display: { xs: 'none', sm: 'block' } }}
-          >
-            Attendance 
-          </Typography>
             <IconButton
               size="large"
               edge="end"
@@ -126,3 +120,7 @@ export default function NavBar() {
     </div>
   );
 }
+
+
+// sign-in -> username & password
+// sign-up -> username, email & password

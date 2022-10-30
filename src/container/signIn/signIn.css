@@ -1,0 +1,19 @@
+.inputs {
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    align-items: flex-start;
+}
+
+.inputs>input {
+    width: 100%;
+} 
+
+.signin {
+    display: flex;
+    /* justify-content: flex-start; */
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin-top: 20px;
+}
