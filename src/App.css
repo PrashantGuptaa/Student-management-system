@@ -1,6 +1,7 @@
 .App {
   text-align: center;
   height: 200vh;
+  background-color: rgb(240, 240, 240);
 }
 
 .interface {

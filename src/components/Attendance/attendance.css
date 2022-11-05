@@ -1,0 +1,12 @@
+.danger {
+background-color: #ff6d6d;
+}
+
+.good {
+    background-color: lawngreen;
+}
+
+.atd {
+    border: 1px solid black;
+    padding: 5px 10px;
+}

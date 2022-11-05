@@ -1,0 +1,7 @@
+
+.personal-content {
+    display: flex;
+    gap: 60px;
+    align-items: center;
+    margin-left: 50px;
+}

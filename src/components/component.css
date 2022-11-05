@@ -1,0 +1,44 @@
+.container {
+    background-color: #ffffff;
+    padding: 10px;
+    border-radius: 8px;
+    /* transition: 0.5s ease; */
+    transition-duration: 4s;
+    transition-delay: 2s;
+  
+}
+
+.title {
+    width: 200px;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+}
+
+.avatar {
+    transform: scale(3);
+}
+
+.details {
+    height: 250px;
+    margin: 20px;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-self: start;
+    align-items: flex-start;
+}
+
+.section {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 5px;
+}

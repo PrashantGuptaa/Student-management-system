@@ -3,25 +3,8 @@ import { leftNavBarOptions } from "../../config/constants";
 import "./leftNavBar.css";
 import { useState } from "react";
 
-export default function LeftNavBar() {
-  const [options, setOptions] = useState(leftNavBarOptions);
+export default function LeftNavBar({ options, handleClick }) {
 
-
-  const handleClick = (e) => {
-    const optionName = e.target.id;
-    const updatedOptions = [];
-    options.map((optionObj) => {
-      const objCopy = { ...optionObj };
-      if (optionName === optionObj.label) {
-        objCopy.active = true;
-      } else {
-        objCopy.active = false;
-      }
-      updatedOptions.push(objCopy);
-    });
-    setOptions(updatedOptions);
-    console.log(e.target.id, "F-1");
-  };
 
   return (
     <div className="left-nav-bar interface">
