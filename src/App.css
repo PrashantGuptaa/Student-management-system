@@ -1,6 +1,6 @@
 .App {
   text-align: center;
-  height: 200vh;
+  height: 100vh;
   background-color: rgb(240, 240, 240);
 }
 
@@ -8,4 +8,9 @@
   background-color: #1f1f26 !important;
   color: white !important;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif !important;
+}
+
+.divider {
+  border-bottom: 0.1px solid lightgray;
+  width: 95%;
 }

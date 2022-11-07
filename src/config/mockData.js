@@ -41,3 +41,19 @@ export const attendanceDetailsMock = [{
     subject: "English",
     attendance: 25
 },]
+
+
+export const mockCompleteStudentData = {
+    name: "Superman",
+    email: 'superman@gmail.com',
+    age: 30,
+    sex: 'M',
+    education: "XYZ",
+    contact: 123456789,
+    course: "Engineering",
+    specialization: "Software Engineering",
+    admission: 2015,
+    currentYear: 3,
+    duration: 4,
+    completed: false,
+}
